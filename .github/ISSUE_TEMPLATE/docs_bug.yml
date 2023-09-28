@@ -1,0 +1,20 @@
+name: "📚 Documentation or README.md issue report"
+description: Report an issue in the project's documentation or README.md file.
+title: "[Documentation]"
+labels: ["documentation"]
+body:
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: To Reproduce
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Media prove
+      description: If applicable, please provide screenshots depicting the problem.
+  - type: textarea
+    id: solution
+    attributes:
+      label: Describe the solution you'd like
+    validations:
+      required: true

@@ -1,21 +1,19 @@
 // ==UserScript==
-// @name        What is my approximate grade?
-// @namespace   Violentmonkey Scripts
-// @match       https://moodle.bbbaden.ch/mod/quiz/review.php*
-// @version     1.0
-// @description Noten Rechner für Moodle
-// @icon        https://uploads-ssl.webflow.com/61add382915b0a19b218de1e/64726a127f34ac9eb1149e84_test-score-sheet-with-answers-grade-a-and-pencil-2021-09-02-21-27-37-utc%20(1).jpg
+// @name            What is my approximate grade?
+// @namespace       Violentmonkey Scripts
+// @match           https://moodle.bbbaden.ch/mod/quiz/review.php*
+// @version         10.1
+// @author          PianoNic
+// @description     This user script is designed to calculate and display an approximate grade based on the points achieved in a Moodle quiz review.
+// @icon            https://uploads-ssl.webflow.com/61add382915b0a19b218de1e/64726a127f34ac9eb1149e84_test-score-sheet-with-answers-grade-a-and-pencil-2021-09-02-21-27-37-utc%20(1).jpg
 //
-// @author          Pianonic (https://github.com/Pianonic)
-// @namespace       https://github.com/BBBaden-Moodle-userscripts/Noten-Rechner/
-// @supportURL      https://github.com/BBBaden-Moodle-userscripts/Noten-Rechner/issues
-// @homepageURL     https://github.com/BBBaden-Moodle-userscripts/Noten-Rechner/
-// @downloadURL     https://github.com/BBBaden-Moodle-userscripts/Noten-Rechner/raw/main/Noten%20Rechner%20-%20bbbaden.ch.js
-// @updateURL       https://github.com/BBBaden-Moodle-userscripts/Noten-Rechner/raw/main/Noten%20Rechner%20-%20bbbaden.ch.js
+// @namespace       https://github.com/BBBaden-Moodle-userscripts/What-is-my-approximate-grade/
+// @supportURL      https://github.com/BBBaden-Moodle-userscripts/What-is-my-approximate-grade/issues
+// @homepageURL     https://github.com/BBBaden-Moodle-userscripts/What-is-my-approximate-grader/
+// @downloadURL     https://github.com/BBBaden-Moodle-userscripts/What-is-my-approximate-grader/raw/main/approximate_grade.user.js
+// @updateURL       https://github.com/BBBaden-Moodle-userscripts/What-is-my-approximate-grade/raw/main/approximate_grade.user.js
 //
-// @compatible      firefox
 // @grant           GM_getValue
-//
 // ==/UserScript==
 
 var tableClass = document.querySelector(".generaltable.generalbox.quizreviewsummary");

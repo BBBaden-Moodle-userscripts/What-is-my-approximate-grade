@@ -12,7 +12,7 @@ This user script is designed to calculate and display an approximate grade based
 
 ## Installation
 
-1. Install a user script manager extension like Tampermonkey.
+1. Install a user script manager extension like [Violentmonkey](https://violentmonkey.github.io/#installation).
 2. Click [here](https://github.com/BBBaden-Moodle-userscripts/What-is-my-approximate-grade/raw/main/approximate_grade.user.js) to install.
 
 ## Usage

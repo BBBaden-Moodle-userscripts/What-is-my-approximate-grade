@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        Noten Rechner - bbbaden.ch
+// @name        What is my approximate grade?
 // @namespace   Violentmonkey Scripts
 // @match       https://moodle.bbbaden.ch/mod/quiz/review.php*
 // @version     1.0

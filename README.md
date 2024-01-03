@@ -26,11 +26,11 @@ This user script, named "What is my approximate grade?", is designed to calculat
 ## Author
 
 - **Pianonic** - [GitHub Profile](https://github.com/Pianonic)
-- **Repository**: [What is my approximate grade?](https://github.com/BBBaden-Moodle-userscripts/Noten-Rechner/)
+- **Repository**: [What is my approximate grade?](https://github.com/BBBaden-Moodle-userscripts/What-is-my-approximate-grade)
 
 ## Support
 
-- If you encounter issues or have suggestions, please open an issue on the [GitHub repository](https://github.com/BBBaden-Moodle-userscripts/Noten-Rechner/issues).
+- If you encounter issues or have suggestions, please open an issue on the [GitHub repository](https://github.com/BBBaden-Moodle-userscripts/What-is-my-approximate-grade/issues).
 
 ## License
 

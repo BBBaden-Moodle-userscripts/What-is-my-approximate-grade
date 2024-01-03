@@ -10,14 +10,12 @@ This user script, named "What is my approximate grade?", is designed to calculat
 
 ## Installation
 
-1. Install a user script manager extension like Violentmonkey.
-2. Create a new script in Violentmonkey.
-3. Copy and paste the provided script into the script editor.
-4. Save the script.
+1. Install a user script manager extension like Tampermonkey.
+2. Click here to install.
 
 ## Usage
 
-1. Navigate to the Moodle quiz review page (URL specified in the `@match` metadata).
+1. Navigate to the Moodle quiz review page.
 2. The script will automatically calculate the approximate grade based on the points achieved.
 3. The calculated grade will be displayed in a new row added to the quiz summary table.
 
@@ -42,5 +40,3 @@ This project is distributed under the terms of the GNU General Public License v3
 This script is provided as-is without any warranty. Use it responsibly and adhere to the terms and conditions of the GPL-3.0 license. The author shall not be held responsible for any consequences arising from the use or misuse of this script.
 
 For more details about the GPL-3.0 license, refer to the [official GNU GPL-3.0 documentation](https://www.gnu.org/licenses/gpl-3.0.html).
-
----

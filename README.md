@@ -28,7 +28,6 @@ This user script is designed to calculate and display an approximate grade based
 ## Author
 
 - **Pianonic** - [GitHub Profile](https://github.com/Pianonic)
-- **Repository**: [What is my approximate grade?](https://github.com/BBBaden-Moodle-userscripts/What-is-my-approximate-grade)
 
 ## Support
 

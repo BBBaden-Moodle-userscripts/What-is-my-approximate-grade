@@ -1,3 +1,5 @@
+[![Static Badge](https://img.shields.io/badge/Install-Script-dark_green?style=for-the-badge&color=dark_green)](https://github.com/BBBaden-Moodle-userscripts/Download-All-Files/raw/main/download-all-files.user.js)
+
 # What is my approximate grade? UserScript
 
 This user script, named "What is my approximate grade?", is designed to calculate and display an approximate grade based on the points achieved in a Moodle quiz review. It adds a new row to the quiz summary table, showing the calculated grade.

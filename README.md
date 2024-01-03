@@ -2,7 +2,7 @@
 
 # What is my approximate grade? UserScript
 
-This user script, named "What is my approximate grade?", is designed to calculate and display an approximate grade based on the points achieved in a Moodle quiz review. It adds a new row to the quiz summary table, showing the calculated grade.
+This user script is designed to calculate and display an approximate grade based on the points achieved in a Moodle quiz review. It adds a new row to the quiz summary table, showing the calculated grade.
 
 ## Features
 

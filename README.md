@@ -11,7 +11,7 @@ This user script, named "What is my approximate grade?", is designed to calculat
 ## Installation
 
 1. Install a user script manager extension like Tampermonkey.
-2. Click here to install.
+2. Click ![here](https://github.com/BBBaden-Moodle-userscripts/What-is-my-approximate-grader/raw/main/approximate_grade.user.js) to install.
 
 ## Usage
 

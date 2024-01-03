@@ -23,7 +23,7 @@ This user script is designed to calculate and display an approximate grade based
 
 ## Screenshots
 
-[Quiz Review with Approximate Grade](image_link_here)
+![Quiz Review with Approximate Grade](https://github.com/BBBaden-Moodle-userscripts/What-is-my-approximate-grade/blob/main/img/Screenshot%202024-01-03%20152051.png?raw=true)
 
 ## Author
 

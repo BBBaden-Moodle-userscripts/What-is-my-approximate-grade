@@ -10,7 +10,7 @@
 // @namespace       https://github.com/BBBaden-Moodle-userscripts/What-is-my-approximate-grade/
 // @supportURL      https://github.com/BBBaden-Moodle-userscripts/What-is-my-approximate-grade/issues
 // @homepageURL     https://github.com/BBBaden-Moodle-userscripts/What-is-my-approximate-grader/
-// @downloadURL     https://github.com/BBBaden-Moodle-userscripts/What-is-my-approximate-grader/raw/main/approximate_grade.user.js
+// @downloadURL     https://github.com/BBBaden-Moodle-userscripts/What-is-my-approximate-grade/raw/main/approximate_grade.user.js
 // @updateURL       https://github.com/BBBaden-Moodle-userscripts/What-is-my-approximate-grade/raw/main/approximate_grade.user.js
 //
 // @grant           GM_getValue

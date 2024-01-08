@@ -2,7 +2,7 @@
 // @name            What is my approximate grade?
 // @namespace       Violentmonkey Scripts
 // @match           https://moodle.bbbaden.ch/mod/quiz/review.php*
-// @version         0.1
+// @version         0.2
 // @author          PianoNic
 // @description     This user script is designed to calculate and display an approximate grade based on the points achieved in a Moodle quiz review.
 // @icon            https://github.com/BBBaden-Moodle-userscripts/What-is-my-approximate-grade/blob/main/icon/icon.png?raw=true

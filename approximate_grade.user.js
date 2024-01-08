@@ -5,7 +5,7 @@
 // @version         0.1
 // @author          PianoNic
 // @description     This user script is designed to calculate and display an approximate grade based on the points achieved in a Moodle quiz review.
-// @icon            https://uploads-ssl.webflow.com/61add382915b0a19b218de1e/64726a127f34ac9eb1149e84_test-score-sheet-with-answers-grade-a-and-pencil-2021-09-02-21-27-37-utc%20(1).jpg
+// @icon            https://github.com/BBBaden-Moodle-userscripts/What-is-my-approximate-grade/blob/main/icon/icon.png?raw=true
 //
 // @namespace       https://github.com/BBBaden-Moodle-userscripts/What-is-my-approximate-grade/
 // @supportURL      https://github.com/BBBaden-Moodle-userscripts/What-is-my-approximate-grade/issues

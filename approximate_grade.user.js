@@ -2,10 +2,14 @@
 // @name            What is my approximate grade?
 // @namespace       Violentmonkey Scripts
 // @match           https://moodle.bbbaden.ch/mod/quiz/review.php*
+// @match           https://moodle.bbbaden.ch/userscript/extensions
 // @version         0.2
 // @author          PianoNic
 // @description     This user script is designed to calculate and display an approximate grade based on the points achieved in a Moodle quiz review.
 // @icon            https://github.com/BBBaden-Moodle-userscripts/What-is-my-approximate-grade/blob/main/icon/icon.png?raw=true
+//
+// @require         https://github.com/BBBaden-Moodle-userscripts/LoggingLibrary/raw/refs/heads/main/Logging.lib.user.js
+// @require         https://github.com/BBBaden-Moodle-userscripts/UserscriptBridgeLib/raw/main/userscriptBridge.lib.js
 //
 // @namespace       https://github.com/BBBaden-Moodle-userscripts/What-is-my-approximate-grade/
 // @supportURL      https://github.com/BBBaden-Moodle-userscripts/What-is-my-approximate-grade/issues
@@ -15,6 +19,18 @@
 //
 // @grant           GM_getValue
 // ==/UserScript==
+
+Logger.info('aproxgrade', 'v0.2 - Initializing');
+
+// Initialize bridge connection for userscript manager
+const connection = new Script();
+Logger.success('aproxgrade', 'Bridge connection initialized');
+
+// If on extensions page, only initialize bridge and return
+if (window.location.href === 'https://moodle.bbbaden.ch/userscript/extensions') {
+    Logger.info('aproxgrade', 'On extensions page - bridge only mode');
+    return;
+}
 
 // Function to scrape the table and extract relevant data
 function scrapeTable() {
@@ -83,3 +99,5 @@ if (table) {
 
   table.appendChild(newRow);
 }
+
+Logger.success('aproxgrade', 'Initialization complete');

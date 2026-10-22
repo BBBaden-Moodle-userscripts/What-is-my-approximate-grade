@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name            What is my approximate grade?
-// @namespace       Violentmonkey Scripts
 // @match           https://moodle.bbbaden.ch/mod/quiz/review.php*
 // @match           https://moodle.bbbaden.ch/userscript/extensions
-// @version         0.2
+// @match           https://lms.bbbaden.ch/mod/quiz/review.php*
+// @match           https://lms.bbbaden.ch/userscript/extensions
+// @version         0.3
 // @author          PianoNic
 // @description     This user script is designed to calculate and display an approximate grade based on the points achieved in a Moodle quiz review.
 // @icon            https://github.com/BBBaden-Moodle-userscripts/What-is-my-approximate-grade/blob/main/icon/icon.png?raw=true
@@ -17,20 +18,14 @@
 // @downloadURL     https://github.com/BBBaden-Moodle-userscripts/What-is-my-approximate-grade/raw/main/approximate_grade.user.js
 // @updateURL       https://github.com/BBBaden-Moodle-userscripts/What-is-my-approximate-grade/raw/main/approximate_grade.user.js
 //
-// @grant           GM_getValue
+// @grant           GM_info
 // ==/UserScript==
 
-Logger.info('aproxgrade', 'v0.2 - Initializing');
+(function () {
+'use strict';
 
-// Initialize bridge connection for userscript manager
-const connection = new Script();
-Logger.success('aproxgrade', 'Bridge connection initialized');
-
-// If on extensions page, only initialize bridge and return
-if (window.location.href === 'https://moodle.bbbaden.ch/userscript/extensions') {
-    Logger.info('aproxgrade', 'On extensions page - bridge only mode');
-    return;
-}
+if (UserscriptBridge.registerScript() || !UserscriptBridge.runOnce()) return;
+Logger.info('aproxgrade', 'v0.3 - Initializing');
 
 // Function to scrape the table and extract relevant data
 function scrapeTable() {
@@ -69,8 +64,7 @@ function extractValues(data) {
 }
 
 // Main script logic
-var tableClass = document.querySelector(".generaltable.generalbox.quizreviewsummary");
-var table = tableClass.querySelector("tbody");
+var table = document.querySelector(".generaltable.generalbox.quizreviewsummary tbody");
 
 if (table) {
   let yourPoint = 0;
@@ -101,3 +95,4 @@ if (table) {
 }
 
 Logger.success('aproxgrade', 'Initialization complete');
+})();
